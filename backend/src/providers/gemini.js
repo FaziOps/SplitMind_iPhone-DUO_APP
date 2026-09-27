@@ -3,7 +3,7 @@ import { ProviderError } from './errors.js';
 // Gemini REST API (generateContent). The key is sent in a header, never in the
 // URL, so it cannot leak into proxy or access logs.
 export function createGeminiProvider({ apiKey, model, timeoutMs, fetchImpl = fetch }) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`;
+  const url = ``;
 
   return {
     name: 'gemini',
