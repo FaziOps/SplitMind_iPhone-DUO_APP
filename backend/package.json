@@ -1,0 +1,15 @@
+{
+  "name": "splitmind-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SplitMind AI proxy (Backend-for-Frontend). Holds the model API key, enforces per-user quotas, and returns structured Markdown.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "node --watch --env-file-if-exists=.env src/server.js",
+    "test": "node --test \"test/**/*.test.js\""
+  }
+}
