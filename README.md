@@ -59,8 +59,8 @@ Set these in `backend/.env`:
 
 ```
 AI_PROVIDER=gemini
-GEMINI_API_KEY=...          # server-side only; never ships in the app
-GEMINI_MODEL=...            # confirm the current model id before shipping
+GEMINI_API_KEY=...           # server-side only; never ships in the app
+GEMINI_MODEL=...             # confirm the current model id before shipping
 TOKEN_SECRET=<32+ random bytes, hex>
 ```
 
