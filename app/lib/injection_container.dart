@@ -33,6 +33,7 @@ final sl = GetIt.instance;
 const sampleDocumentAsset = 'assets/sample/splitmind_welcome.pdf';
 
 /// Registers every dependency. Parameters exist so tests can substitute fakes.
+
 Future<void> initDependencies({
   required Box<NoteModel> notesBox,
   required Box<DocumentModel> documentsBox,
