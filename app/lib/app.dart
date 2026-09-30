@@ -34,7 +34,9 @@ class _SplitMindAppState extends State<SplitMindApp> {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
+        
         // App-wide singletons: the Mediator and the device posture.
+        
         BlocProvider.value(value: sl<ActiveWorkspaceBloc>()),
         BlocProvider.value(value: sl<DevicePostureCubit>()),
       ],
