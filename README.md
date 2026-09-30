@@ -40,6 +40,7 @@ On a **physical iPhone**, use your Mac's LAN address (for example `http://192.16
 
 **3. Tests and checks**
 
+
 ```bash
 cd app && flutter analyze && flutter test     # 61 tests
 
@@ -67,6 +68,7 @@ TOKEN_SECRET=<32+ random bytes, hex>
 Use a paid-tier key so prompts are not used for training. The in-app disclosure (NFR-7) promises this.
 
 ## Trying the features
+
 
 | What | How |
 |---|---|
