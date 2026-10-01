@@ -6,6 +6,7 @@ import '../widgets/dual_pane_demo.dart';
 /// First-run flow (FR-10): a short interactive demo of the dual-pane idea, the
 /// AI data disclosure (NFR-7), then the first import. No permission prompts:
 /// the iOS document picker needs none.
+
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key, required this.onFinished});
 
