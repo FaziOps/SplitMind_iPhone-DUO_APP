@@ -116,6 +116,7 @@ class _Page extends StatelessWidget {
   final String title;
   final String? body;
   final Widget child;
+  
 
   @override
   Widget build(BuildContext context) {
@@ -144,6 +145,7 @@ class _Page extends StatelessWidget {
 }
 
 /// NFR-7 in-app disclosure. Keep this copy accurate to the backend's actual
+
 /// configuration and to the published privacy policy.
 class _PrivacyDisclosure extends StatelessWidget {
   const _PrivacyDisclosure();
