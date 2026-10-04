@@ -220,4 +220,5 @@ describe('burst limiter', () => {
     assert.equal(limited.status, 429);
     assert.equal(limited.body.error, 'rate_limited');
   });
+  
 });
