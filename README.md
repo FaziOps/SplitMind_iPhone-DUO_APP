@@ -2,6 +2,7 @@
 
 A dual-pane reader and AI synthesis workspace for iPhone Duo, with a single-pane mode for standard iPhones. It implements Phase 1 of the SplitMind PRD (v1 + v2 merged).
 
+
 ```
 SplitMind_DuoApp/
 ├── app/        Flutter iOS app (Clean Architecture + BLoC)
