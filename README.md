@@ -138,3 +138,4 @@ Quota state is in memory, which is fine for a single instance. Move it to Redis 
 - **Real sign-in** (Sign in with Apple and similar) to replace anonymous tokens. Quotas key off whatever user id `verifyToken()` returns.
 - **Privacy policy, App Privacy label, and a legal review** of DR-3 (NFR-7).
 - **Out of scope for Phase 1 per the PRD:** web links, EPUB/DOCX/OCR, Apple Pencil, export/Anki, cloud sync.
+
