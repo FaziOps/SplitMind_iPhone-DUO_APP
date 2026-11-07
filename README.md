@@ -41,7 +41,6 @@ On a **physical iPhone**, use your Mac's LAN address (for example `http://192.16
 
 **3. Tests and checks**
 
-
 ```bash
 cd app && flutter analyze && flutter test     # 61 tests
 
